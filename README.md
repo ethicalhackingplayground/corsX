@@ -1,5 +1,5 @@
 # corsX
-Cross Origin Resource Sharing Scanner (CORS Scanner)
+Cross Origin Resource Sharing Misconfiguration Scanner (CORS Scanner)
 
 <p align="left">
   <img width="120" height="120" src="cors.png">
