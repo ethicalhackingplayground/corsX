@@ -125,6 +125,7 @@ func runScanner() {
 					 if value == "null" {
                                			// Vulnerabilitiy exists
                                			color.Red("VULNERABLE: " + url + "\n")
+						color.Blue(header+":"+value)
 						file.WriteString(url + "\n")
 					 }else{
 						color.Cyan("Not Vulnerable: " + url + "\n")
@@ -143,6 +144,7 @@ func runScanner() {
                                          if value == "null" {
                                                 // Vulnerabilitiy exists
                                                 color.Red("VULNERABLE: " + url + "\n")
+						color.Blue(header+":"+value)
                                                 file.WriteString(url + "\n")
                                          }else{
                                                 color.Cyan("Not Vulnerable: " + url + "\n")
