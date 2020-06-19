@@ -41,6 +41,8 @@ Usage of ./corsX:
 
 `$ cat urls | gau | ./corsX -c 100`
 
+#### Vulnerabilities will be stored in cors.log
+
 
 **If you get a bounty please support by buying me a coffee**
 
