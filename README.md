@@ -39,7 +39,14 @@ Usage of ./corsX:
 
 ### Usage:
 
+*From URLS*
+
 `$ cat urls | gau | ./corsX -c 100`
+
+*Subdomain Scanning*
+
+`$ subfinder -d domain --silent -t 100 | gau | ./corsX -c 100`
+
 
 #### Vulnerabilities will be stored in cors.log
 
